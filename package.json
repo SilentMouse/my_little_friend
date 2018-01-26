@@ -1,6 +1,6 @@
 {
   "name": "my_little_friend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,11 @@
   },
   "author": "maxim blinov",
   "license": "ISC",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
   "bugs": {
     "url": "https://github.com/SilentMouse/my_little_friend/issues"
   },
