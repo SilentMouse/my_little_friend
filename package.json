@@ -13,12 +13,40 @@
   "author": "maxim blinov",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^15.2.0",
+    "config": "^1.29.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jsx-control-statements": "^3.2.8",
+    "lodash": "^4.17.4",
+    "node-fetch": "^1.7.3",
+    "path": "^0.12.7",
     "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "url-loader": "^0.6.2",
+    "urlencode": "^1.1.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-concat-plugin": "^2.4.2",
+    "webpack-merge": "^4.1.1"
   },
   "bugs": {
     "url": "https://github.com/SilentMouse/my_little_friend/issues"
   },
-  "homepage": "https://github.com/SilentMouse/my_little_friend#readme"
+  "homepage": "https://github.com/SilentMouse/my_little_friend#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babili-webpack-plugin": "^0.1.2",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-bulk-import-loader": "^0.1.1",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
